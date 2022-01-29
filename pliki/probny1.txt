@@ -1,0 +1,347 @@
+1A_1B_1C_1D_1E_1F_Etyka Wierzyński Jan
+1A_1B_Wychowanie fizyczne Szewczuk Izabella
+1A_1C_1F_Język rosyjski Roszkowska Ilona
+1A_1D_1F_Język angielski Broniszewska Agata
+1A_1D_1F_Język angielski Chwiećko Paulina
+1A_1D_1F_Język angielski Gajek Krzysztof
+1A_1D_1F_Język angielski Kubala Sylwia
+1A_1D_1F_Religia Małecka Mariola
+1A_Biologia Lechańska Marzena
+1A_Chemia Demby Katarzyna
+1A_Edukacja dla bezpieczeństwa Wierzyński Jan
+1A_Filozofia Wierzyński Jan
+1A_Fizyka Piętak Barbara
+1A_Geografia Tarafi Anna
+1A_Historia Łukomski Mirosław
+1A_Informatyka Łusiak Andrzej
+1A_Informatyka Łusiak Andrzej
+1A_Język niemiecki Sobieszek Agata
+1A_Język polski Tomczyk Dorota
+1A_Matematyka Sapko Agnieszka
+1A_Wiedza o społeczeństwie Rudecki Jarosław
+1A_Wychowanie fizyczne Mosór Paweł
+1A_Zajęcia z wychowawcą/godziny z wychowawcą Tomczyk Dorota
+1B_1C_1E_Język angielski Broniszewska Agata
+1B_1C_1E_Język angielski Gajek Krzysztof
+1B_1C_1E_Język angielski Halter Monika
+1B_1C_1E_Język angielski Mikołajczyk Aneta
+1B_1C_1E_Religia Małecka Mariola
+1B_1D_1E_Język rosyjski Roszkowska Ilona
+1B_Biologia Lechańska Marzena
+1B_Chemia Demby Katarzyna
+1B_Edukacja dla bezpieczeństwa Wierzyński Jan
+1B_Filozofia Wierzyński Jan
+1B_Fizyka Piętak Barbara
+1B_Geografia Szydłowska Agata
+1B_Historia Stawarz Urszula
+1B_Informatyka Łusiak Andrzej
+1B_Informatyka Łusiak Andrzej
+1B_Język niemiecki Sobieszek Agata
+1B_Język polski Tomczyk Dorota
+1B_Matematyka Sapko Agnieszka
+1B_Wiedza o społeczeństwie Rudecki Jarosław
+1B_Wychowanie fizyczne Wawrzos Krzysztof
+1B_Zajęcia z wychowawcą/godziny z wychowawcą Szydłowska Agata
+1C_1D_Wychowanie fizyczne Wawrzos Krzysztof
+1C_Biologia Kubala Sylwia
+1C_Chemia Demby Katarzyna
+1C_Edukacja dla bezpieczeństwa Wierzyński Jan
+1C_Filozofia Wierzyński Jan
+1C_Fizyka Piętak Barbara
+1C_Geografia Tarafi Anna
+1C_Historia Stawarz Urszula
+1C_Informatyka Łusiak Andrzej
+1C_Informatyka Łusiak Andrzej
+1C_Język niemiecki Sobieszek Agata
+1C_Język polski Rokicka Barbara
+1C_Matematyka Wójcik Joanna
+1C_Wiedza o społeczeństwie Rudecki Jarosław
+1C_Wychowanie fizyczne Berliński Mariusz
+1C_Zajęcia z wychowawcą/godziny z wychowawcą Kubala Sylwia
+1D_Biologia Kucharska Aleksandra
+1D_Chemia Demby Katarzyna
+1D_Edukacja dla bezpieczeństwa Wierzyński Jan
+1D_Filozofia Wierzyński Jan
+1D_Fizyka Piętak Barbara
+1D_Geografia Tarafi Anna
+1D_Historia Bogusz Danuta
+1D_Informatyka Łusiak Andrzej
+1D_Informatyka Łusiak Andrzej
+1D_Język niemiecki Sobieszek Agata
+1D_Język polski Malicka Monika
+1D_Matematyka Piętak Barbara
+1D_Wiedza o społeczeństwie Rudecki Jarosław
+1D_Wychowanie fizyczne Szewczuk Izabella
+1D_Zajęcia z wychowawcą/godziny z wychowawcą Piętak Barbara
+1E_Biologia Kucharska Aleksandra
+1E_Chemia Demby Katarzyna
+1E_Edukacja dla bezpieczeństwa Wierzyński Jan
+1E_Edukacja teatralna Sitek Agnieszka
+1E_Edukacja teatralna Sitek Agnieszka
+1E_Filozofia Wierzyński Jan
+1E_Fizyka Piętak Barbara
+1E_Geografia Szydłowska Agata
+1E_Historia Stawarz Urszula
+1E_Informatyka Łusiak Andrzej
+1E_Informatyka Łusiak Andrzej
+1E_Język niemiecki Owczarek Joanna
+1E_Język polski Oneksiak Urszula
+1E_Matematyka Wójcik Joanna
+1E_Wiedza o społeczeństwie Rudecki Jarosław
+1E_Wychowanie fizyczne Berliński Mariusz
+1E_Wychowanie fizyczne Wawrzos Krzysztof
+1E_Zajęcia z wychowawcą/godziny z wychowawcą Oneksiak Urszula
+1F_Biologia Kucharska Aleksandra
+1F_Chemia Demby Katarzyna
+1F_Edukacja dla bezpieczeństwa Wierzyński Jan
+1F_Filozofia Wierzyński Jan
+1F_Fizyka Piętak Barbara
+1F_Geografia Szydłowska Agata
+1F_Historia Stawarz Urszula
+1F_Informatyka Turek Radosław
+1F_Informatyka Turek Radosław
+1F_Język niemiecki Owczarek Joanna
+1F_Język polski Malicka Monika
+1F_Matematyka Grębska Aleksandra
+1F_Wiedza o społeczeństwie Rudecki Jarosław
+1F_Wychowanie fizyczne Mosór Paweł
+1F_Wychowanie fizyczne Szewczuk Izabella
+1F_Zajęcia z wychowawcą/godziny z wychowawcą Grębska Aleksandra
+2A_2B_Język rosyjski Roszkowska Ilona
+2A_2B_Religia Małecka Mariola
+2A_2C_2D_Etyka Wierzyński Jan
+2A_2C_Wychowanie fizyczne Berliński Mariusz
+2A_2C_Wychowanie fizyczne Szewczuk Izabella
+2A_Biologia Ulikowska Zyta
+2A_Chemia Demby Katarzyna
+2A_Fizyka Jaroszek Anna
+2A_Geografia Szydłowska Agata
+2A_Historia Stawarz Urszula
+2A_Informatyka Łusiak Andrzej
+2A_Informatyka Łusiak Andrzej
+2A_Język angielski Gajek Krzysztof
+2A_Język angielski Kubala Sylwia
+2A_Język niemiecki Owczarek Joanna
+2A_Język polski Rokicka Barbara
+2A_Matematyka Wójcik Joanna
+2A_Podstawy przedsiębiorczości Rudecki Jarosław
+2A_Wiedza o społeczeństwie Rudecki Jarosław
+2A_Zajęcia z wychowawcą/godziny z wychowawcą Stawarz Urszula
+2B_2C_2D_Język angielski Gajek Krzysztof
+2B_2C_2D_Język angielski Halter Monika
+2B_2C_2D_Język angielski Kubala Sylwia
+2B_2C_2D_Język angielski Mikołajczyk Aneta
+2B_2D_Wychowanie fizyczne Berliński Mariusz
+2B_Biologia Lechańska Marzena
+2B_Chemia Demby Katarzyna
+2B_Fizyka Jaroszek Anna
+2B_Geografia Szydłowska Agata
+2B_Historia Stawarz Urszula
+2B_Informatyka Łusiak Andrzej
+2B_Informatyka Łusiak Andrzej
+2B_Język niemiecki Sobieszek Agata
+2B_Język polski Oneksiak Urszula
+2B_Matematyka Sapko Agnieszka
+2B_Podstawy przedsiębiorczości Wawrzos Krzysztof
+2B_Wiedza o społeczeństwie Rudecki Jarosław
+2B_Wychowanie fizyczne Wawrzos Krzysztof
+2B_Zajęcia z wychowawcą/godziny z wychowawcą Wawrzos Krzysztof
+2C_2D_Język rosyjski Roszkowska Ilona
+2C_2D_Religia Małecka Mariola
+2C_Biologia Ulikowska Zyta
+2C_Chemia Demby Katarzyna
+2C_Fizyka Jaroszek Anna
+2C_Geografia Szydłowska Agata
+2C_Historia Rudecki Jarosław
+2C_Informatyka Łusiak Andrzej
+2C_Informatyka Łusiak Andrzej
+2C_Język niemiecki Owczarek Joanna
+2C_Język polski Pietrewicz Ewelina
+2C_Matematyka Grębska Aleksandra
+2C_Podstawy przedsiębiorczości Rudecki Jarosław
+2C_Wiedza o społeczeństwie Rudecki Jarosław
+2C_Zajęcia z wychowawcą/godziny z wychowawcą Rudecki Jarosław
+2D_Biologia Ulikowska Zyta
+2D_Chemia Demby Katarzyna
+2D_Fizyka Jaroszek Anna
+2D_Geografia Szydłowska Agata
+2D_Historia Stawarz Urszula
+2D_Informatyka Turek Radosław
+2D_Informatyka Turek Radosław
+2D_Język niemiecki Sobieszek Agata
+2D_Język polski Rokicka Barbara
+2D_Matematyka Grębska Aleksandra
+2D_Podstawy przedsiębiorczości Rudecki Jarosław
+2D_Wiedza o społeczeństwie Rudecki Jarosław
+2D_Wychowanie fizyczne Mosór Paweł
+2D_Zajęcia z wychowawcą/godziny z wychowawcą Gajek Krzysztof
+3AG_3BG_3CG_3DG_Język rosyjski Roszkowska Ilona
+3AG_3BG_Język angielski Broniszewska Agata
+3AG_3BG_Język angielski Halter Monika
+3AG_3BG_Język angielski Mikołajczyk Aneta
+3AG_3BG_Wychowanie fizyczne Mazur Marta
+3AG_3CG_3DG_3EG_3FG_Religia Małecka Mariola
+3AG_Historia Łukomski Mirosław
+3AG_Język niemiecki Sobieszek Agata
+3AG_Język polski Oneksiak Urszula
+3AG_Matematyka Piętak Barbara
+3AG_Przyroda Piechowski Rafał
+3AG_Wychowanie fizyczne Mosór Paweł
+3AG_Zajęcia z wychowawcą/godziny z wychowawcą Dobrzelewska Kalina
+3AP_3BP_3CP_3DP_Religia Małecka Mariola
+3AP_3BP_3EP_Etyka Wierzyński Jan
+3AP_3BP_Język angielski Broniszewska Agata
+3AP_3BP_Język angielski Chwiećko Paulina
+3AP_3BP_Język angielski Starek Joanna
+3AP_3BP_Język rosyjski Roszkowska Ilona
+3AP_3BP_Wychowanie fizyczne Berliński Mariusz
+3AP_Biologia Lechańska Marzena
+3AP_Chemia Demby Katarzyna
+3AP_Fizyka Piętak Barbara
+3AP_Geografia Szydłowska Agata
+3AP_Historia Łukomski Mirosław
+3AP_Informatyka Łusiak Andrzej
+3AP_Język niemiecki Owczarek Joanna
+3AP_Język polski Pietrewicz Ewelina
+3AP_Matematyka Piętak Barbara
+3AP_Podstawy przedsiębiorczości Wawrzos Krzysztof
+3AP_Wychowanie fizyczne Wawrzos Krzysztof
+3AP_Zajęcia z wychowawcą/godziny z wychowawcą Pietrewicz Ewelina
+3BG_Historia Łukomski Mirosław
+3BG_Język niemiecki Owczarek Joanna
+3BG_Język polski Malicka Monika
+3BG_Matematyka Wójcik Joanna
+3BG_Przyroda Piechowski Rafał
+3BG_Wychowanie fizyczne Wawrzos Krzysztof
+3BG_Zajęcia z wychowawcą/godziny z wychowawcą Malicka Monika
+3BP_Biologia Lechańska Marzena
+3BP_Chemia Demby Katarzyna
+3BP_Fizyka Piętak Barbara
+3BP_Geografia Tarafi Anna
+3BP_Historia Łukomski Mirosław
+3BP_Informatyka Łusiak Andrzej
+3BP_Język niemiecki Sobieszek Agata
+3BP_Język polski Pietrewicz Ewelina
+3BP_Matematyka Sapko Agnieszka
+3BP_Podstawy przedsiębiorczości Rudecki Jarosław
+3BP_Wychowanie fizyczne Szewczuk Izabella
+3BP_Zajęcia z wychowawcą/godziny z wychowawcą Lechańska Marzena
+3CG_3DG_Język angielski Broniszewska Agata
+3CG_3DG_Język angielski Chwiećko Paulina
+3CG_3DG_Język angielski Halter Monika
+3CG_3DG_Wychowanie fizyczne Szewczuk Izabella
+3CG_Biologia Lechańska Marzena
+3CG_Geografia Tarafi Anna
+3CG_Historia i społeczeństwo Bogusz Danuta
+3CG_Język niemiecki Owczarek Joanna
+3CG_Język polski Oneksiak Urszula
+3CG_Matematyka Grębska Aleksandra
+3CG_Wychowanie fizyczne Wawrzos Krzysztof
+3CG_Zajęcia z wychowawcą/godziny z wychowawcą Szewczuk Izabella
+3CP_3DP_3GP_Wychowanie fizyczne Mazur Marta
+3CP_3DP_Język angielski Chwiećko Paulina
+3CP_3DP_Język angielski Halter Monika
+3CP_3DP_Język angielski Kubala Sylwia
+3CP_3DP_Język rosyjski Roszkowska Ilona
+3CP_3EP_Wychowanie fizyczne Berliński Mariusz
+3CP_Biologia Lechańska Marzena
+3CP_Chemia Demby Katarzyna
+3CP_Fizyka Piętak Barbara
+3CP_Geografia Szydłowska Agata
+3CP_Historia Stawarz Urszula
+3CP_Informatyka Łusiak Andrzej
+3CP_Język niemiecki Sobieszek Agata
+3CP_Język polski Pietrewicz Ewelina
+3CP_Matematyka Wójcik Joanna
+3CP_Podstawy przedsiębiorczości Wawrzos Krzysztof
+3CP_Zajęcia z wychowawcą/godziny z wychowawcą Mazur Marta
+3DG_Biologia Kucharska Aleksandra
+3DG_Etyka Wierzyński Jan
+3DG_Geografia Tarafi Anna
+3DG_Historia i społeczeństwo Bogusz Danuta
+3DG_Język niemiecki Owczarek Joanna
+3DG_Język polski Wierzyńska Magdalena
+3DG_Matematyka Sapko Agnieszka
+3DG_Wychowanie fizyczne Mosór Paweł
+3DG_Zajęcia z wychowawcą/godziny z wychowawcą Wierzyński Jan
+3DP_3GP_Wychowanie fizyczne Mosór Paweł
+3DP_Biologia Kucharska Aleksandra
+3DP_Chemia Demby Katarzyna
+3DP_Fizyka Piętak Barbara
+3DP_Geografia Tarafi Anna
+3DP_Historia Stawarz Urszula
+3DP_Informatyka Łusiak Andrzej
+3DP_Język niemiecki Owczarek Joanna
+3DP_Język polski Pietrewicz Ewelina
+3DP_Matematyka Sapko Agnieszka
+3DP_Podstawy przedsiębiorczości Łusiak Andrzej
+3DP_Zajęcia z wychowawcą/godziny z wychowawcą Kucharska Aleksandra
+3EG_3FG_Język rosyjski Roszkowska Ilona
+3EG_3FG_Wychowanie fizyczne Mosór Paweł
+3EG_Geografia Szydłowska Agata
+3EG_Historia i społeczeństwo Bogusz Danuta
+3EG_Język angielski Broniszewska Agata
+3EG_Język angielski Chwiećko Paulina
+3EG_Język niemiecki Owczarek Joanna
+3EG_Język polski Pietrewicz Ewelina
+3EG_Matematyka Piętak Barbara
+3EG_Wiedza o społeczeństwie Rudecki Jarosław
+3EG_Wychowanie fizyczne Wawrzos Krzysztof
+3EG_Zajęcia z wychowawcą/godziny z wychowawcą Owczarek Joanna
+3EP_3FP_3GP_Język angielski Gajek Krzysztof
+3EP_3FP_3GP_Język angielski Kubala Sylwia
+3EP_3FP_3GP_Język angielski Mikołajczyk Aneta
+3EP_3FP_3GP_Język angielski Starek Joanna
+3EP_3FP_3GP_Religia Małecka Mariola
+3EP_Biologia Kucharska Aleksandra
+3EP_Chemia Demby Katarzyna
+3EP_Fizyka Piętak Barbara
+3EP_Geografia Szydłowska Agata
+3EP_Historia Łukomski Mirosław
+3EP_Informatyka Turek Radosław
+3EP_Informatyka Turek Radosław
+3EP_Język niemiecki Sobieszek Agata
+3EP_Język polski Tomczyk Dorota
+3EP_Język rosyjski Roszkowska Ilona
+3EP_Matematyka Wójcik Joanna
+3EP_Podstawy przedsiębiorczości Wawrzos Krzysztof
+3EP_Wiedza o społeczeństwie Rudecki Jarosław
+3EP_Wychowanie fizyczne Szewczuk Izabella
+3EP_Zajęcia z wychowawcą/godziny z wychowawcą Sobieszek Agata
+3FG_Biologia Kucharska Aleksandra
+3FG_Chemia Demby Katarzyna
+3FG_Historia i społeczeństwo Bogusz Danuta
+3FG_Język angielski Chwiećko Paulina
+3FG_Język angielski Gajek Krzysztof
+3FG_Język niemiecki Owczarek Joanna
+3FG_Język polski Rokicka Barbara
+3FG_Matematyka Grębska Aleksandra
+3FG_Wychowanie fizyczne Berliński Mariusz
+3FG_Zajęcia z wychowawcą/godziny z wychowawcą Chwiećko Paulina
+3FP_3GP_Język rosyjski Roszkowska Ilona
+3FP_Biologia Kucharska Aleksandra
+3FP_Chemia Demby Katarzyna
+3FP_Fizyka Piętak Barbara
+3FP_Geografia Szydłowska Agata
+3FP_Historia Stawarz Urszula
+3FP_Informatyka Łusiak Andrzej
+3FP_Informatyka Łusiak Andrzej
+3FP_Język niemiecki Sobieszek Agata
+3FP_Język polski Tomczyk Dorota
+3FP_Matematyka Wójcik Joanna
+3FP_Podstawy przedsiębiorczości Wawrzos Krzysztof
+3FP_Wychowanie fizyczne Berliński Mariusz
+3FP_Wychowanie fizyczne Mosór Paweł
+3FP_Zajęcia z wychowawcą/godziny z wychowawcą Demby Katarzyna
+3GP_Biologia Lechańska Marzena
+3GP_Chemia Demby Katarzyna
+3GP_Edukacja medialna Łusiak Andrzej
+3GP_Fizyka Piętak Barbara
+3GP_Geografia Szydłowska Agata
+3GP_Historia Stawarz Urszula
+3GP_Informatyka Turek Radosław
+3GP_Język niemiecki Sobieszek Agata
+3GP_Język polski Tomczyk Dorota
+3GP_Matematyka Grębska Aleksandra
+3GP_Podstawy przedsiębiorczości Wawrzos Krzysztof
+3GP_Zajęcia z wychowawcą/godziny z wychowawcą Turek Radosław

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1> To jest plik html probny1.html </h1>
+    <!--<h2> to jest <h1><mark>{{text}}</mark></h1> przekazany z views z funkcji </h2>-->
+     skladnia django dla wyswietlania dynamicznego <br>
+    {% if zmienna|length < 3 %}
+    <h1> Za mało filmów</h1>
+    {% elif zmienna|length == 3 %}
+    <h2> DOKŁADNIE 3 SZTUKI ZAWODNIKÓW  </h2>
+    {% endif %}
+    <h2> ilość zawodników : {{ zmienna|length}}</h2>
+    {% for zm in zmienna %}
+
+       <p> {{zm.nazwisko}}, {{ zm.pas }}, {{zm.belki}} </p>
+
+    {% endfor %}
+
+</body>
+</html>

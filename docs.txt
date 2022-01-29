@@ -1,0 +1,162 @@
+folder dla projektu
+python -m env env
+pip install django
+django-admin startproject nazwa .
+python manage.py runserver
+django-admin startapp aplikacja
+
+MIGRACJE
+python manage.py migrate
+
+stworzenie uzytkownika admin
+python manage.py createsuperuser
+
+PO STWORZENIU MODELU
+python manage.py makemigrations
+python manage.py migrate
+
+DO SETTINGS.PY DODAJ INSTALLED_APPS
+NA DOLE 'APLIKACJA'
+W ADMIN TRZEBA ZAREJSTROWAC MODEL
+w pliku admin.py
+# 19 rejestracja modelu
+
+# DRUGI SPOSÓB REJESTRACJI MODELU
+@admin.register(Zawodnik)
+class ZawodnikAdmin(admin.ModelAdmin):
+    fields = ['nazwisko']
+
+# modyfikacje admin
+@admin.register(Zawodnik)
+class ZawodnikAdmin(admin.ModelAdmin):
+    #fields = ['nazwisko','imie','wiek','pas','belki','email','fotka']
+    #exclude = ['wiek']# wyłączenie wyświetlania
+    list_display= ['nazwisko','imie','pas','belki']# klikam Zawodniks i tam wyświetlone są  to co w liście
+    list_filter = ('pas',)# lista filtrowania
+    search_fields = ('pas',)# okienko wyszukiwania
+
+# teraz modyfikacja urls.py w folderze projektu
+dodaj path w urls.py
+wejdz do views.py w folderze aplikacji i dodaj
+from django.http import HttpResponse
+# Create your views here.
+def test_response(request):
+    return HttpResponse('to jest nasz 1 test ')
+
+# wejdz do urls w projekcie
+from aplikacja.views import test_response
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('test/', test_response),# dodane
+]
+## w settings.py w folderze projektu mogę zmienić DEBUG na False
+nie będzie pokazywało DEBUG
+
+W FODERZE APLIKACJA TWORZE PLIK urls.py
+ABY KAŻDA APLIKACJA MIAŁA SWÓJ ADRES
+w tym pliku kopujemy to co w urls.py projektu ale bez admin bo to beda urls tylko aplikacji
+W URLS.PY PROJEKTU KASUJEMY path('test/', test_response),
+
+w settings.py znajdz templates -> dirs i tam wpisz katalog w którym będą templates
+
+w pliku views.py
+# Create your views here.
+def test_response(request):
+    # return HttpResponse('<h1>to jest nasz 1 test </h1>')
+    return render(request , 'probny1.html')# zamiast linijki powyżej # to jest zmienione
+
+w veiws.py w funkcji wyswietlania jakiegos tempates stworz zmienna i przekaz ja jako argument w return
+    return render(request , 'probny1.html',{'text':test}  )# zamiast linijki powyżej
+    a w templates wpisz w {{  }}  nazwe tej zmiennej w wywolaniu w nawiasie {  }
+
+W html templates
+{% for zm in zmienna %}
+
+       <p> {{zm}} </p>
+
+    {% endfor %}
+a w views.py
+def test_response(request):
+    return render(request, 'probny1.html', {'zmienna': ['Turek','Radek'] } )
+
+w views.py wyjmowanie z bazy danych zawodnikow
+ORM OBJECT RELATIONS MAPPING
+python manage.py shell - konsola
+from aplikacja.models import Zawodnik
+wszyscy = Zawodnik.objects.all()
+wszyscy[1].nazwisko
+jeden = Zawodnik.objects.get( nazwisko='TUREK') blad jezeli object nie istnieje
+jeden = Zawodnik.objects.filter( nazwisko='TUREK') nie ma bledu jesli nie ma objectu
+STWORZENIE NOWEGO OBJEKTU W KONSOL
+Zawodnik.objects.create(nazwisko='TRZECI',imie='trzeci', pas='BRAZ', belki=3, email='B@gmail', poczatek='2021-01-01')
+update
+drugi = Zawodnik.objects.get(id=2)
+drugi.nazwisko = 'DRUGIi'
+drugi.save()
+# USUWANIE
+drugi.delete()
+Zadownik.objects.get(id=2).delete()
+
+TEMPLATES
+docs django templates language
+{% extends "base_generic.html" %}
+
+{% block title %}{{ section.title }}{% endblock %}
+
+{% block content %}
+<h1>{{ section.title }}</h1>
+
+{% for story in story_list %}
+<h2>
+  <a href="{{ story.get_absolute_url }}">
+    {{ story.headline|upper }}
+  </a>
+</h2>
+<p>{{ story.tease|truncatewords:"100" }}</p>
+{% endfor %}
+{% endblock %}
+
+STATIC
+DODAJ FOLDER NP moje_static
+w settings.py dopisz ponizej STATI = '/static/'
+STATICFILES_DIRS = ['moje_static']
+    NA POCZĄTKU HTML TRZEBA DODAĆ
+    {% load static %}
+    w linku do css href="{% static 'nazwapliku.css' %} "
+
+POTRZEBNE DO STATYCZNYCH
+from django.conf import settings
+from django.conf.urls.static import  static
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('aplikacja.urls')),# pod adresem zawodnik/ wczxytamy urls z aplikacji
+    # zeby przejsc do test który jest w urls.py aplikacji trzeba najpierw wpisac zawodnik
+
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+DLATEGO MEDIA_URL BO W SETTINGS.PY STRORZYLIŚMY SCIĘZKE DO MEDIA_URL
+
+AAAAAAAAAAAAAAAAAAAAAAA
+dodanie background-image w style w html
+ style="background-image:  url({% static 'images/blackbelt03.jpg' %})">
+
+
+  pip install -U -r requirements.txt
+*******************************
+To działa dla mnie:
+
+$ pip install -r requirements.txt --no-index --find-links file:///tmp/packages
+--no-index- Ignoruj ​​indeks pakietów ( --find-linkszamiast tego patrz tylko na adresy URL).
+
+-f, --find-links <URL> - Jeśli adres URL lub ścieżka do pliku HTML, przeanalizuj łącza do archiwów.
+
+Jeśli ścieżka lokalna lub file://adres URL jest katalogiem, poszukaj archiwów na liście katalogów.
+*************
+rozszerzenia do django
+	pip install django-extensions
+	do settings.py w INSTALLED_APPS DODAJ
+	django_extensions 
+    wtedy zamiast python manage.py shell
+    mogę korzystać z python manage.py shell_plus
+  SAMODZIELNE IMPORTY , 
+   JESZCZE ZAINSTALUJ pip install ipython
+    python manage.py shell_plus --ipython   

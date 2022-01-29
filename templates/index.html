@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="{% static 'blackbelt03.jpg' %}" rel="icon">
+
+  <title>Title page</title>
+
+  <link href="{% static 'main.3f6952e4.css' %}" rel="stylesheet">
+</head>
+
+<body class="minimal">
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+  <!-- Add your content of header -->
+  <header>
+    <nav class="navbar  navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="{% url 'glowna_strona' %}" title="">01 : Home</a></li>
+            <li><a href="{% url 'praca' %}" title="">02 : Works</a></li>
+            <li><a href="{% url 'omnie' %}" title="">03 : About me</a></li>
+            <li><a href="{% url 'kontakt'  %}" title="">04 : Contact</a></li>
+            <li><a href="{% url 'komponenty' %}" title="">05 : Components</a></li>
+            <li><a href="{% url 'pasowanie' %}" title="">06 : Pasowanie</a></li>
+            <li><a href="{% url 'lista_zawodnikow_' %}" title="">07 : Lista zawodników</a></li>
+
+            {% if user.is_authenticated %}
+<!--            Witam {{  user.username }} .-->
+            <li><a href="{% url 'nowy_plik' %}" title="">00 : Nowy plik</a></li>
+            <li><a href="{% url 'nowy_zawodnik' %}" title="">00 : Nowy zawodnik</a></li>
+            <li><a href="{% url 'jakie_pliki' %}" title="">00 : Jakie pliki </a></li>
+
+            {% else %}
+            <li><a href="{% url 'login' %}" title="">08 : Logowanie</a></li>
+            {% endif %}
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container"
+    style="background-image:  url({% static 'images/blackbelt02.jpg' %})">
+<!--    href="{% static 'blackbelt03.jpg' %}"-->
+    <!--      style="background-image: url('./assets/images/space.jpg')">-->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>
+<!--              <h1>Cześć,<br>-->
+                <span id="typed-strings">
+                  <span>Cześć </span>
+                  <span>Nazywam się Radek Turek</span>
+                  <span>oto moja pierwsza strona Django</span>
+                  <span>mam nadzieje, że nie ostatnia </span>
+                  <span style="font-size:200px">&#x1F608 &#x1F608 &#x1F608 </span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      type();
+      movingBackgroundImage();
+    });
+  </script>
+
+
+  <script type="text/javascript" src="{% static 'main.70a66962.js' %}"></script>
+</body>
+
+</html>

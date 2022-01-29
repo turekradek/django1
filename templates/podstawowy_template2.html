@@ -1,0 +1,13 @@
+{% extends 'podstawowy_template1.html %}
+
+{% block tytul %} podstawowy 2  {% endblock %}
+
+{% block strona %}
+
+                {% for fighter in zawodnicy  %}
+
+                   {{ fighter.id }} {{ fighter.nazwisko }}  {{ fighter.imie }} {{ fighter.pas }} {{ fighter.belki }}
+
+                {% endfor %}
+
+{% endblock %}
